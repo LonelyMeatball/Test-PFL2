@@ -1,0 +1,380 @@
+.conteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+}
+
+.top_content {
+    background-color: rgba(255, 255, 255, 0.92);
+    width: 100wh;
+    height: 250px;
+    grid-row: 10/12;
+    grid-column: 1/4;
+    border-top: 2px solid rgb(182, 15, 91);
+
+}
+
+.menu_content {
+    width: 100wh;
+    height: 100px;
+    grid-row: 1/2;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: #b60f5b;
+}
+
+.main_content {
+    background-color: rgba(255, 255, 255, 0.92);
+    width: 100wh;
+    height: 100hw;
+    margin-top: 0px;
+    grid-row: 2/10;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 80px;
+    height: 80px;
+    background-image: url(https://sun9-65.userapi.com/impg/7KisE9b8R2xOVZxLvuOUbCoHPgcnR7jokzgeTw/KDYOGSkZmJU.jpg?size=80x100&quality=96&sign=399971ae978485b5c2972ce33187fefa&type=album) ;
+    border-radius: 50%;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.text_top {
+    font-size: 18px;
+    text-align: center;
+}
+
+.menu_we {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.menu_new {
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.menu_frends {
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+
+.menu_search {
+    grid-row: 1/2;
+    grid-column: 5/6;
+}
+
+.text_main {
+    font-size: 50px;
+    text-align: center;
+    grid-row: 1/2;
+    grid-column: 1/5;
+
+    border-block: 4px solid rgb(182, 15, 91);
+}
+
+.frend1 {
+
+    background-image: url(https://sun9-61.userapi.com/impg/IuLn-NrOZ95t6m0sS0HY1ZF-GDpWryyrEoOwpg/OIFwrjDaKeA.jpg?size=150x150&quality=96&sign=85512279cde44b159f052c43cadda7a9&type=album);
+    width: 150px;
+    height: 150px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+    transition: 1s; /* Время эффекта */
+}
+
+
+.frend1:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+}
+
+
+
+
+.kvadro1 {
+    background-image: url(https://sun9-61.userapi.com/impg/IuLn-NrOZ95t6m0sS0HY1ZF-GDpWryyrEoOwpg/OIFwrjDaKeA.jpg?size=150x150&quality=96&sign=85512279cde44b159f052c43cadda7a9&type=album);
+    width: 150px;
+    height: 150px;
+}
+
+.kv_text1 {
+    text-align: center;
+}
+
+.frend2 {
+    background-image: url(https://sun9-15.userapi.com/impg/8XdxpSr_wNcyXrZfmx2ft0Z_dxdmFUjTZ_oqzw/iNAH9pAYTMA.jpg?size=150x150&quality=96&sign=7a96fc87e5307c6eebf731b206d5ba62&type=album);
+    width: 150px;
+    height: 150px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+    transition: 1s; /* Время эффекта */
+}
+
+
+.frend2:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+}
+
+.k2 {
+    background-image: url(https://sun9-15.userapi.com/impg/8XdxpSr_wNcyXrZfmx2ft0Z_dxdmFUjTZ_oqzw/iNAH9pAYTMA.jpg?size=150x150&quality=96&sign=7a96fc87e5307c6eebf731b206d5ba62&type=album);
+    width: 150px;
+    height: 150px;
+}
+
+.kt2 {
+    text-align: center;
+}
+
+.frend3 {
+    background-image: url(https://sun9-4.userapi.com/impg/j7LlPTJ7WDsnz6sKt-zs8SjHmYFKJUkzRnXAWA/SbtLSqu0fkc.jpg?size=150x150&quality=96&sign=f0ec7505ee42ab0d847216433c5dbd31&type=album);
+    width: 150px;
+    height: 150px;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    transition: 1s; /* Время эффекта */
+}
+
+
+.frend3:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+}
+
+.k3 {
+    background-image: url(https://sun9-4.userapi.com/impg/j7LlPTJ7WDsnz6sKt-zs8SjHmYFKJUkzRnXAWA/SbtLSqu0fkc.jpg?size=150x150&quality=96&sign=f0ec7505ee42ab0d847216433c5dbd31&type=album);
+    width: 150px;
+    height: 150px;
+}
+
+.kt3 {
+    text-align: center;
+}
+
+.frend4 {
+    background-image: url(https://sun9-45.userapi.com/impg/ghEuJOw_6NN0tlTsjsepwzTmoPbiW2hIpDPKZg/D5O_ePs0XXk.jpg?size=150x150&quality=96&sign=b4c1e5374003b08fddced421224d9e34&type=album);
+    width: 150px;
+    height: 150px;
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+.k4 {
+    background-image: url(https://sun9-45.userapi.com/impg/ghEuJOw_6NN0tlTsjsepwzTmoPbiW2hIpDPKZg/D5O_ePs0XXk.jpg?size=150x150&quality=96&sign=b4c1e5374003b08fddced421224d9e34&type=album);
+    width: 150px;
+    height: 150px;
+    transition: 1s; /* Время эффекта */
+}
+
+
+.frend4:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+}
+
+.kt4 {
+    text-align: center;
+}
+
+.frend5 {
+    background-image: url(https://sun9-79.userapi.com/impg/zJesN8wj8LvfqLMtxOq7BeL821SClaeAJl0ifw/mj1ji9qOI5I.jpg?size=150x150&quality=96&sign=e7915e6ee134d257c8fa93c0ae7cb00c&type=album);
+    width: 150px;
+    height: 150px;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    transition: 1s; /* Время эффекта */
+}
+
+
+.frend5:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+}
+
+.k5 {
+    background-image: url(https://sun9-79.userapi.com/impg/zJesN8wj8LvfqLMtxOq7BeL821SClaeAJl0ifw/mj1ji9qOI5I.jpg?size=150x150&quality=96&sign=e7915e6ee134d257c8fa93c0ae7cb00c&type=album);
+    width: 150px;
+    height: 150px;
+}
+
+.kt5 {
+    text-align: center;
+}
+
+.frend6 {
+    background-image: url(https://sun9-66.userapi.com/impg/3dSRK5zxo6001ebFgmUqs8wzCmpvrFcImZTluw/2LtjfZIufz4.jpg?size=150x150&quality=96&sign=1812d2c5cb8d34d92911c94d3a329dd7&type=album);
+    width: 150px;
+    height: 150px;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    transition: 1s; /* Время эффекта */
+}
+
+
+.frend6:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+}
+
+.k6 {
+    background-image: url(https://sun9-66.userapi.com/impg/3dSRK5zxo6001ebFgmUqs8wzCmpvrFcImZTluw/2LtjfZIufz4.jpg?size=150x150&quality=96&sign=1812d2c5cb8d34d92911c94d3a329dd7&type=album);
+    width: 150px;
+    height: 150px;
+}
+
+.kt6 {
+    text-align: center;
+}
+
+.frend7 {
+    background-image: url(https://sun2-22.userapi.com/impg/1k9aoTg676TvmLIvWTJcCQ7WlaOe_GNuYu403A/ktS8VSatPRQ.jpg?size=150x150&quality=96&sign=67aaff6a712919de139b480ccb2c1eac&type=album);
+    width: 150px;
+    height: 150px;
+    grid-row: 3/4;
+    grid-column: 3/4;
+    transition: 1s; /* Время эффекта */
+}
+
+
+.frend7:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+}
+.k7 {
+    background-image: url(https://sun2-22.userapi.com/impg/1k9aoTg676TvmLIvWTJcCQ7WlaOe_GNuYu403A/ktS8VSatPRQ.jpg?size=150x150&quality=96&sign=67aaff6a712919de139b480ccb2c1eac&type=album);
+    width: 150px;
+    height: 150px;
+}
+
+.kt7 {
+    text-align: center;
+}
+
+
+.frend8 {
+    background-image: url(https://sun9-77.userapi.com/impg/8nnCN4fQW5JD10E8GJsDqz3R8gJZfrWOwi-E-w/Ejc0SYVelNc.jpg?size=150x150&quality=96&sign=0e166035a9dce26c2e566641c00f641b&type=album);
+    width: 150px;
+    height: 150px;
+    grid-row: 3/4;
+    grid-column: 4/5;
+    transition: 1s; /* Время эффекта */
+}
+
+
+.frend8:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+}
+
+.k8 {
+    background-image: url(https://sun9-77.userapi.com/impg/8nnCN4fQW5JD10E8GJsDqz3R8gJZfrWOwi-E-w/Ejc0SYVelNc.jpg?size=150x150&quality=96&sign=0e166035a9dce26c2e566641c00f641b&type=album);
+    width: 150px;
+    height: 150px;
+}
+
+.kt8 {
+    text-align: center;
+}
+
+.frend9 {
+    background-image: url(https://sun2-10.userapi.com/impg/bVmV-X-AwLFxziSupzsFvXMSByLqmBBbIZAVvg/R8ovlW1hinY.jpg?size=150x150&quality=96&sign=12e95eba7d862e4a8ebb97a6609c6366&type=album);
+    width: 150px;
+    height: 150px;
+    grid-row: 4/5;
+    grid-column: 1/2;
+    transition: 1s; /* Время эффекта */
+}
+
+
+.frend9:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+}
+
+.k9 {
+    background-image: url(https://sun2-10.userapi.com/impg/bVmV-X-AwLFxziSupzsFvXMSByLqmBBbIZAVvg/R8ovlW1hinY.jpg?size=150x150&quality=96&sign=12e95eba7d862e4a8ebb97a6609c6366&type=album);
+    width: 150px;
+    height: 150px;
+}
+
+.kt9 {
+    text-align: center;
+}
+
+.frend10 {
+    background-image: url(https://sun9-27.userapi.com/impg/zLaYzNcBorlyob7Ucm7mm4_IQdCU7If552Eoxw/DmqyQccy-jc.jpg?size=150x150&quality=96&sign=2d2e210d3a07ce896f93f493139c0f94&type=album);
+    width: 150px;
+    height: 150px;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    transition: 1s; /* Время эффекта */
+}
+
+
+.frend10:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+}
+
+.k10 {
+    background-image: url(https://sun9-27.userapi.com/impg/zLaYzNcBorlyob7Ucm7mm4_IQdCU7If552Eoxw/DmqyQccy-jc.jpg?size=150x150&quality=96&sign=2d2e210d3a07ce896f93f493139c0f94&type=album);
+    width: 150px;
+    height: 150px;
+}
+
+.kt10 {
+    text-align: center;
+}
+
+.frend11 {
+    background-image: url(https://sun9-60.userapi.com/impg/xrU5FX8crwBbjUqDJAS0aO5JGs1m4JZoLrch5g/H8Ufr0eAr3U.jpg?size=150x150&quality=96&sign=d83aa6d380df684f9c86167c2a0f417c&type=album);
+    width: 150px;
+    height: 150px;
+    grid-row: 4/5;
+    grid-column: 3/4;
+    transition: 1s; /* Время эффекта */
+}
+
+
+.frend11:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+}
+
+.k11 {
+    background-image: url(https://sun9-60.userapi.com/impg/xrU5FX8crwBbjUqDJAS0aO5JGs1m4JZoLrch5g/H8Ufr0eAr3U.jpg?size=150x150&quality=96&sign=d83aa6d380df684f9c86167c2a0f417c&type=album);
+    width: 150px;
+    height: 150px;
+}
+
+.kt11 {
+    text-align: center;
+}
+
+.frend12 {
+    background-image: url(https://sun9-34.userapi.com/impg/TD-KKOSMlkmyHS5SzCKxxbOh00g_mg7vqs64fA/sFDsBdBZxNY.jpg?size=150x150&quality=96&sign=95cf1503b462a2c7f7d647b5a427bf6d&type=album);
+    width: 150px;
+    height: 150px;
+    grid-row: 4/5;
+    grid-column: 4/5;
+    transition: 1s; /* Время эффекта */
+}
+
+
+.frend12:hover {
+    transform: scale(2); /* Увеличиваем масштаб */
+}
+.k12 {
+    background-image: url(https://sun9-34.userapi.com/impg/TD-KKOSMlkmyHS5SzCKxxbOh00g_mg7vqs64fA/sFDsBdBZxNY.jpg?size=150x150&quality=96&sign=95cf1503b462a2c7f7d647b5a427bf6d&type=album);
+    width: 150px;
+    height: 150px;
+}
+
+.kt12 {
+    text-align: center;
+}

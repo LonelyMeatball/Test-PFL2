@@ -1,0 +1,122 @@
+.conteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+}
+
+.top_content {
+    background-color: rgba(255, 255, 255, 0.92);
+    width: 100wh;
+    height: 200px;
+    grid-row: 10/12;
+    grid-column: 1/4;
+    border-top: 2px solid rgb(182, 15, 91);
+}
+
+.menu_content {
+    width: 100wh;
+    height: 100px;
+    grid-row: 1/2;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: #b60f5b;
+}
+
+.main_content {
+    background-color: rgba(255, 255, 255, 0.92);
+    width: 100wh;
+    height: 100hw;
+    margin-top: 0px;
+    grid-row: 2/10;
+    grid-column: 1/4;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(1, 1fr);
+}
+
+.logo {
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 80px;
+    height: 80px;
+    background-image: url(https://sun9-65.userapi.com/impg/7KisE9b8R2xOVZxLvuOUbCoHPgcnR7jokzgeTw/KDYOGSkZmJU.jpg?size=80x100&quality=96&sign=399971ae978485b5c2972ce33187fefa&type=album) ;
+    border-radius: 50%;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.text_top {
+    font-size: 18px;
+    text-align: center;
+}
+
+.menu_we {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.menu_new {
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.menu_frends {
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+
+.menu_search {
+    grid-row: 1/2;
+    grid-column: 5/6;
+}
+
+.text_main {
+    font-size: 50px;
+    text-align: center;
+    grid-row: 1/2;
+    grid-column: 1/5;
+
+
+}
+
+.foto {
+    background: url(https://sun9-13.userapi.com/impg/Y1dbcO574pYkCeT26TJRiakocCRVq63qNuaANQ/W9h5DiF0sQU.jpg?size=363x485&quality=96&sign=c952eefa6d2060e0bf8ac416c3820ed2&type=album);
+    width: 300px; 
+    height: 500px; 
+    background-repeat: no-repeat; /* Не повторяем */
+    background-size: cover; /* Размер фона */
+    background-position: center; /* Позиция картинкипо центру */
+    margin-top: 8%;
+    margin-left: 20%;
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+
+
+    -webkit-box-shadow:
+            0 1px 0 rgba(255,255,255,.2),
+            inset 0 4px 5px rgba(0,0,0,.6),
+            inset 0 1px 0 rgba(0,0,0,.6);
+    -moz-box-shadow:
+            0 1px 0 rgba(255,255,255,.2),
+            inset 0 4px 5px rgba(0,0,0,.6),
+            inset 0 1px 0 rgba(0,0,0,.6);
+    box-shadow:
+            0 1px 0 rgba(255,255,255,.2),
+            inset 0 4px 5px rgba(0,0,0,.6),
+            inset 0 1px 0 rgba(0,0,0,.6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.we_textmain {
+    margin-top: 8%;
+    grid-row: 1/2;
+    grid-column: 2/4;
+    font-size: 20px;
+}
